@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: #C3EBFF;
+}
+
+::-moz-selection {
+   color: rgb(0, 0, 0);
+   background-color:#C3EBFF;
+}
+
+@font-face {
+  font-family: 'PPFormula';
+  src: url('./components/fonts/PPFormula.woff') format('woff'); /* Ajusta la ruta según la ubicación de tu archivo de fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #009eec;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(36, 36, 36);
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #464646;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383838;
+}
+/* .app{
+  background-color: hsl(0, 0%, 100%);
+  overflow: hidden;
+} */
+
+.background{
+  background-color: rgba(255, 255, 255, 0.836);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background-image: url("https://res.cloudinary.com/dvnhn35l4/image/upload/v1707264257/ojos%20de%20cielo/fondoblanco2_ruege0.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
