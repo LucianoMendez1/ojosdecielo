@@ -44,7 +44,7 @@ const Tarot = () => {
           />
           <img
             className="img_animala img_2" // Cambiado a ".bio-image-static2-animala"
-            src="https://res.cloudinary.com/dvnhn35l4/image/upload/v1692066011/cartas_oecxtx.gif"
+            src="https://res.cloudinary.com/dvnhn35l4/image/upload/v1707267097/ojos%20de%20cielo/tarot-significado-de-las-78-cartas-arcanos-mayores-y-menores-y-como-interpretarlas_ba0b7645_231103205235_1280x720_ampsqc.jpg"
             alt="image 2"
           />
           <img
