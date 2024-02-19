@@ -1,0 +1,414 @@
+.pendulo-wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 5rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .box_text_pendulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 78%;
+    gap: 2rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .box_text_pendulo p{
+    text-transform: initial;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 100%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box_text_pendulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 78%;
+    gap: 2rem;
+    position: relative;
+    text-align: center;
+   
+  }
+  
+  .box_text_pendulo span{
+    color: #ffa4c4;
+    font-size: 1.8rem;
+    letter-spacing: .5px;
+    text-transform: initial;
+    font-weight: 600;
+    width: 100%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .box_text_pendulo h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+      font-size: 5rem;
+  
+    font-weight: 900;
+    line-height: 120%;
+    font-family: 'PPFormula';
+    src: url('./components/fonts/PPFormula.woff') format('woff'); /* Ajusta la ruta según la ubicación de tu archivo de fuente */
+    color: #121212;
+    width: 100vh;
+  
+  }
+  
+  .box_text_pendulo p{
+    text-transform: initial;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 100%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .box_img_pendulo {
+  
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  .img_pendulo {
+    width: 20vw;
+    height: 20rem;
+    
+    object-fit: cover;
+    border-radius: 8px;
+    /* filter: grayscale(100%); */
+    transition: 1s;
+  }     
+  
+  .img_pendulo:hover {
+     filter: grayscale(100); 
+  }
+  
+  .img_pendulo1 {
+    top: 2rem;
+    left:4rem;
+    rotate: -10deg;
+  }
+  
+  .img_pendulo2 {
+    position: relative;
+    top: 0%;
+    right: 10%; /* Cambiado a 50% para centrar el punto de transformación */
+    transform: translate(50%, 0%); /* Modificado translate para mover hacia la derecha */
+    z-index: 5;
+    width: 20vw;
+    height: 40rem;
+  
+    /* filter: grayscale(0); */
+}
+
+  
+  .img_pendulo3 {
+    top: 2rem;
+    right: 2.5rem;
+    rotate: 10deg;
+  }
+  
+  .img_pendulo2:hover {
+    filter: grayscale(100%);
+  }
+  
+ 
+
+  
+  @media screen and (max-width:1440px) {
+    .box_text_pendulo h2{
+      font-size: 5rem;    
+    }
+    
+    .box_text_pendulo{
+      width: 80%;
+    }
+    .pendulo-wrapper{
+      padding: 5rem 4rem;
+    }
+  
+    .box_img_pendulo {
+      width: 100%;
+      height: 90vh;
+    }
+  
+    .img_pendulo1 {
+      width: 23rem;
+      height: 20rem;
+    }
+  
+    .img_pendulo2 {
+      width: 25rem;
+      height: 36rem;
+    }
+  
+    .img_pendulo3 {
+      width: 23rem;
+      height: 20rem;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width:1240px) {
+  
+    .pendulo-wrapper{
+      margin-top: 2rem;
+    }
+  
+    .box_biography_video{
+      flex-wrap: wrap-reverse !important;
+    }
+  
+    .box_biography{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 2rem 4rem;
+    }
+  
+  
+    .text_biography h2{
+      font-size: 7vw;
+      font-weight: 900;
+      line-height: 7.8vw;
+    }
+  
+    .box_text_pendulo{
+      width: 90%;
+      gap: 2rem;
+    }
+  
+    .box_text_pendulo h2{
+      font-size: 5rem;    
+    }
+
+    .box_img_pendulo {
+      width: 100%;
+      min-height: 65vh;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .img_pendulo1 {
+      width: 18rem;
+      height: 19rem;
+    }
+  
+    .img_pendulo2{
+      width: 24rem;
+      height: 32rem;
+    }
+  
+    .img_pendulo3{
+      width: 23rem;
+      height: 24rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:1180px) {
+  
+    .text_biography h2{
+      font-size: 7vw;
+      font-weight: 900;
+      line-height: 7.8vw;
+    }
+    
+    .text_biography p{
+      font-size: 1.2rem;
+      font-weight: 500;
+      width: 100%;
+    }
+    
+    .text_biography span{
+      font-size: 1.2rem;
+      font-weight: 500;
+      width: 100%;
+    }
+  
+    .pendulo-wrapper{
+      gap: 2rem;
+      padding: 1rem 5rem;
+      margin-top: 7rem;
+    }
+  
+  
+    
+  
+    .box_biography{
+      padding: 2rem 2rem;
+    }
+    .pendulo-wrapper{
+      margin-top: 0rem;
+      padding: 1rem 2rem;
+    }
+    .text_biography_s2{
+      margin-top: 5rem;
+    }
+  
+    .box_text_pendulo p , .box_text_pendulo span{
+      font-size: 1.5rem;
+    }
+  
+    .box_text_pendulo h2{
+      font-size: 6vw;    
+    }
+
+
+    .box_img_pendulo {
+      width: 100%;
+      min-height: 65vh;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .img_pendulo1 {
+      width: 18rem;
+      height: 19rem;
+    }
+  
+    .img_pendulo2 {
+      width: 24rem;
+      height: 32rem;
+    }
+  
+    .img_pendulo3 {
+      width: 23rem;
+      height: 24rem;
+    }
+  
+
+  }
+  
+  
+  @media screen and (max-width:780px) {
+    .text_biography h2{
+      font-size: 7vw;
+      font-weight: 900;
+      line-height: 8.4vw;
+    }
+  
+    .box_biography {
+      padding: 2rem 0rem;
+  }
+    .pendulo-wrapper{
+      margin-top: 0rem;
+      padding: 1rem 2rem;
+    }
+  
+    .text_biography_s2{
+      margin-top: 5rem;
+    }
+  
+    .box_text_pendulo p , .box_text_pendulo span{
+      font-size: 1.3rem;
+    }
+  
+    .box_text_pendulo h2{
+      font-size: 8vw;    
+    }
+  
+   
+    
+    .box_text_pendulo{
+      margin-top: 2rem;
+    }
+  }
+  
+  @media screen and (max-width:550px) {
+    .text_biography p{
+      font-size: 1.1rem;
+      text-transform: initial;
+    }
+  
+    .text_biography span{
+      text-transform: initial;
+      font-size: 1.1rem;
+    }
+  
+    .text_biography h2{
+      font-size: 1.9rem;
+      font-weight: 900;
+      line-height: 130%;
+    }
+    .box_text_pendulo p , .box_text_pendulo span{
+      font-size: 1.1rem;
+    }
+    .box_text_pendulo h2{
+      font-size: 1.9rem;
+      line-height: 130%;
+    }
+  
+    .box_text_pendulo{
+      width: 100%;
+      gap: 2rem;
+      text-align: start;
+    }
+    .box_img_pendulo {
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width:370px) {
+    .text_biography p{
+      font-size: 1.05rem;
+      text-transform: initial;
+    }
+  
+    .text_biography span{
+      text-transform: initial;
+      font-size: 1.05rem;
+    }
+    .box_text_pendulo p , .box_text_pendulo span{
+      font-size: 1.05rem;
+    }
+    .box_text_pendulo h2{
+      font-size: 1.8rem;
+      line-height: 140%;
+  
+    }
+    .text_biography h2{
+      font-size: 1.8rem;
+      font-weight: 900;
+      line-height: 140%;
+    }
+    .box_img_pendulo {
+      display: none;
+    }
+  }

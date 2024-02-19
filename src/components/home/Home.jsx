@@ -5,6 +5,9 @@ import { gsap } from "gsap";
 const Presentacion = lazy(() => import("../scene/presentacion/Presentacion"));
 const Biografia = lazy(() => import("../scene/biografia/Biografia"));
 const Tarot = lazy(() => import("../scene/tarot/Tarot"));
+const Pendulohebreo = lazy(() => import( "../scene/pendulohebreo/Pendulohebreo"));
+const Aromaterapia = lazy(() => import( "../scene/aromaterapia/Aromaterapia")); 
+
 
 const Home = () => {
   return (
@@ -14,6 +17,8 @@ const Home = () => {
 
         <Biografia />
         <Tarot />
+        <Pendulohebreo/>
+        <Aromaterapia />
       </Suspense>
     </div>
   );

@@ -1,17 +1,18 @@
-.container_animala {
-    margin-top: 12rem;
+.container_aromaterapia {
+    margin-top: 5rem;
     position: relative;
     width: 100%;
     min-height: 100vh;
     height: 100vh;
     display: flex;
+   
     justify-content: center;
     align-items: flex-start;
     padding: 0 4rem;
     gap: 1rem;
   }
   
-  .box_text_biography-tarot{
+  .box_text_biography-aromaterapia{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@
     text-align: center;
   } 
 
-  .box_text_biography-tarot h2{
+  .box_text_biography-aromaterapia h2{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -36,7 +37,7 @@
   }
 
   
-.box_text_biography-tarot p{
+.box_text_biography-aromaterapia p{
     text-transform: initial;
     color: rgb(0, 0, 0);
     font-size: 1.8rem;
@@ -46,7 +47,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  .box_text_biography-tarot span{
+  .box_text_biography-aromaterapia span{
     color: #ffa4c4;
     font-size: 1.8rem;
     letter-spacing: .5px;
@@ -58,89 +59,41 @@
   }
   
   
-  /* imgs */
+
   
-  .box_img_animala {
+ 
+
+  .container_video_detail {
     width: 100%;
-    height: 90%;
+    max-width: 100%; 
+    height: auto; /* Cambiado a auto */
+    max-height: 50vh; /* Ajusta según lo necesites */
     position: relative;
     display: flex;
-    overflow: hidden;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  
-  .img_animala {
-    width: 16vw;
-    height: 20rem;
-    position: absolute;
-    object-fit: cover;
-    border-radius: 8px;
-   /*  filter: grayscale(100%); */
-    transition: 1s;
-  }     
-  
-  .img_animala:hover {
-     filter: grayscale(100); 
-  }
-  
-  .img_1 {
-    top: 2rem;
-    left: 2.5rem;
-    rotate: -10deg;
-  }
-  
-  .img_2 {
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    z-index: 5;
-    width: 20vw;
-    height: 40rem;
-    /* filter: grayscale(0); */
-  }
-  
-  .img_3 {
-    top: 2rem;
-    right: 2.5rem;
-    rotate: 10deg;
-  }
-  
-  .img_2:hover {
-    filter: grayscale(100%);
-  }
-  
-  .img_4 {
-    bottom: 1rem;
-    left: 3rem;
-    height: 30rem;
-    width: 17vw;
-    z-index: 2;
-    rotate: -11deg;
-  }
-  
-  .img_5 {
-    bottom: 0rem;
-    left: 50%;
-    z-index: 4;
-    transform: translate(-50%, 0%);
-    width: 18vw;
-    height: 15rem;
-  }
-  
-  .img_6 {
-    bottom: 1rem;
-    right: 4rem;
-    rotate: 11deg;
-    height: 30rem;
-    width: 17vw;
-  }
-  
-  .video_animala_mobile {
+   justify-content: center;
+   align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+   
+   
+
+}
+
+.box_video_detail {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.box_video_detail video {
     width: 100%;
     height: 100%;
-    position: relative;
-  }
+    object-fit:cover;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%; 
+}
+
   
   
 .Button{
@@ -165,20 +118,16 @@
 }
 
   @media screen and (max-width: 1400px) {
-    .container_animala {
+    .container_aromaterapia {
       margin-top: 0rem;
       height: 100%;
       flex-direction: column;
     }
   
-    .box_img_animala {
-      width: 100%;
-      height: 90vh;
-    }
   }
   
   @media screen and (max-width: 1400px) {
-    .container_animala {
+    .container_aromaterapia {
       margin-top: 0rem;
       height: 100%;
       flex-direction: column;
@@ -186,51 +135,19 @@
       padding: 0 1.5rem;
     }
   
-    .box_img_animala {
-      width: 100%;
-      height: 90vh;
-    }
+ 
   
-    .img_1 {
-      width: 23rem;
-      height: 20rem;
-    }
-  
-    .img_2 {
-      width: 25rem;
-      height: 36rem;
-    }
-  
-    .img_3 {
-      width: 23rem;
-      height: 20rem;
-    }
-  
-    .img_4 {
-      bottom: 2rem;
-      height: 28rem;
-      width: 20rem;
-    }
-  
-    .img_5 {
-      width: 22rem;
-      height: 11rem;
-    }
-  
-    .img_6 {
-      height: 30rem;
-      width: 20rem;
-    }
+ 
   }
   
   @media screen and (max-width: 1180px) {
 
-    .box_text_biography-tarot{
+    .box_text_biography-aromaterapia{
         width: 90%;
         gap: 2rem;
       }
     
-      .box_text_biography-tarot h2{
+      .box_text_biography-aromaterapia h2{
         font-size: 5rem;    
       }
     .box_img_animala {
@@ -242,32 +159,6 @@
     }
   
   
-    .img_1 {
-      width: 18rem;
-      height: 19rem;
-    }
-  
-    .img_2 {
-      width: 24rem;
-      height: 32rem;
-    }
-  
-    .img_3 {
-      width: 23rem;
-      height: 24rem;
-    }
-  
-    .img_4 {
-      display: none;
-    }
-  
-    .img_5 {
-      display: none;
-    }
-  
-    .img_6 {
-      display: none;
-    }
   
     .box_text_animala {
       width: 100%;
@@ -280,6 +171,27 @@
     .box_text_animala p {
       font-size: 1.6rem;
     }
+
+    .video_biography {
+        width: 90vw !important;
+        height: 35rem !important; 
+      }
+    
+      .video_biography video{
+        object-fit: cover;
+        width: 90vw;
+        height: 35rem;
+        border-radius: 5px;
+        filter: grayscale(100%);
+      }
+    
+      .video_biography:after {
+        top: 50%;
+        left: 50%;
+        width: 90vw;
+        transform: translate(-50% , -50%);
+        height: 35rem;
+      }
   }
   
   @media screen and (max-width: 800px) {
@@ -288,7 +200,7 @@
         margin-top: 5rem;
       }
     
-      .box_text_biography-tarot p , .box_text_biography-tarot span{
+      .box_text_biography-aromaterapia p , .box_text_biography-aromaterapia span{
         font-size: 1.3rem;
       }
     
@@ -296,30 +208,8 @@
         font-size: 8vw;    
       }
 
-    .box_img_animala {
-      width: 100%;
-      min-height: 65vh;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
   
-    .img_1 {
-      width: 14rem;
-      height: 19rem;
-    }
-  
-    .img_2 {
-      width: 17rem;
-      height: 32rem;
-    }
-  
-    .img_3 {
-      width: 14rem;
-      height: 24rem;
-    }
-  
-    .container_animala {
+    .container_aromaterapia {
       margin-bottom:6rem;
     }
   
@@ -335,9 +225,6 @@
   
   
   @media screen and (max-width: 540px) {
-    .box_img_animala {
-      display: none;
-    }
   
     .box_text_animala {
       width: 100%;
@@ -359,10 +246,10 @@
       position: relative;
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     }
-    .box_text_biography-tarot p , .box_text_biography-tarot span{
+    .box_text_biography-aromaterapia p , .box_text_biography-aromaterapia span{
         font-size: 1.05rem;
       }
-      .box_text_biography-tarot h2{
+      .box_text_biography-aromaterapia h2{
         font-size: 1.8rem;
         line-height: 140%;
     
@@ -372,16 +259,16 @@
   @media screen and (max-width: 440px) {
     
     
-    .box_text_biography-tarot p , .box_text_biography-tarot span{
+    .box_text_biography-aromaterapia p , .box_text_biography-aromaterapia span{
         font-size: 1.05rem;
       }
-      .box_text_biography-tarot h2{
+      .box_text_biography-aromaterapia h2{
         font-size: 1.8rem;
         line-height: 140%;
     
       }
 
-    .container_animala {
+    .container_aromaterapia {
       margin-top: 0rem ;
       height: 100%;
       flex-direction: column;

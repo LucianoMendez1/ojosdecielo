@@ -26,63 +26,6 @@
 
 }
 
-.text_biography , .video_biography{
-  display: flex;
-  justify-content: center ;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 2rem;
-  width: 45%;
-  position: relative;
-}
-
-
-.video_biography{
-  position: relative !important;
-  width:55% !important;
-  align-items: center !important;
-  width: 40rem !important;
-  height: 45rem !important;
-}
-
-.video_biography::before{
-  content: '';
-  position: absolute;
-  bottom: -6rem;
-  width: 180%;
-  height: .1rem;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.267);
-}
-
-.video_biography_s2::before{
-  display: none !important;
-}
-
-.video_biography video{
-  object-fit: cover;
-  width: 80%;
-  height: 45rem;
-  border-radius: 5px;
-  filter: grayscale(100%);
-}
-
-.video_biography:after {
-  position: absolute;
-  content: "";
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  height: 45rem;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFklEQVR4AWMAgv/IGFPAvcAHBWMIAAAYUhARXKGDCAAAAABJRU5ErkJggg==);
-  background-color: rgba(19, 19, 19, 0.6);
-  opacity: .6;
-  border-radius: 5px;
-  z-index: 10;
-}
-
 
 .text_biography h2{
   font-size: 4vw;
@@ -233,21 +176,9 @@
     flex-wrap: wrap;
     padding: 2rem 4rem;
   }
-  .text_biography , .video_biography{
-    width: 100%;
-  }
 
-  .video_biography video{
-    width: 90vw !important;
-    height: 35rem !important; 
-  }
-  .video_biography:after {
-    top: 50%;
-    left: 50%;
-    width: 90vw;
-    transform: translate(-50% , -50%);
-    height: 35rem;
-  }
+
+  
 
   .text_biography h2{
     font-size: 7vw;
@@ -292,26 +223,6 @@
   }
 
 
-  .video_biography {
-    width: 90vw !important;
-    height: 35rem !important; 
-  }
-
-  .video_biography video{
-    object-fit: cover;
-    width: 90vw;
-    height: 35rem;
-    border-radius: 5px;
-    filter: grayscale(100%);
-  }
-
-  .video_biography:after {
-    top: 50%;
-    left: 50%;
-    width: 90vw;
-    transform: translate(-50% , -50%);
-    height: 35rem;
-  }
 
   .box_biography{
     padding: 2rem 2rem;
@@ -361,9 +272,7 @@
     font-size: 8vw;    
   }
 
-  .video_biography::before{
-    width: 90%;
-  }
+  
 
   
   .box_text_biography{
