@@ -377,7 +377,7 @@
     .box_text_pendulo{
       width: 100%;
       gap: 2rem;
-      text-align: start;
+      text-align: center;
     }
     .box_img_pendulo {
       display: none;

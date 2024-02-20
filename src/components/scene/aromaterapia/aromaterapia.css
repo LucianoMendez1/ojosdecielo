@@ -205,7 +205,12 @@
       }
     
       .box_text_biography h2{
-        font-size: 8vw;    
+        font-size:8vw;
+        width: 100%;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
       }
 
   

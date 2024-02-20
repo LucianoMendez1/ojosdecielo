@@ -335,9 +335,7 @@
   
   
   @media screen and (max-width: 540px) {
-    .box_img_animala {
-      display: none;
-    }
+    
   
     .box_text_animala {
       width: 100%;
