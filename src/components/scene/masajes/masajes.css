@@ -1,0 +1,40 @@
+.masajes-wrapper{
+   margin-top: 5rem;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+  
+ 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5rem;
+    gap: 1rem;
+}
+
+.img-container-masajes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: wrap;
+    gap: 2rem;
+   
+}
+
+.img-container-masajes img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    padding: 1rem;
+   
+}
+.img-container-masajes .img-masajes2{
+  
+    height: 33vh;
+    border-radius: 8px;
+   
+}
+
+

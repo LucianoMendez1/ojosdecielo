@@ -23,7 +23,7 @@ const Aromaterapia = () => {
         </p>
         <button className="Button">Solicitar Turno</button>
         <div className="container_video_detail">
-          <div className="box_video_detail">
+        <div className="box_video_detail">
             <video
               className=""
               autoPlay
@@ -35,7 +35,7 @@ const Aromaterapia = () => {
           </div>
         </div>
       </div>
-    </div>
+     </div> 
   );
 };
 
