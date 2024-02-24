@@ -8,6 +8,7 @@ const Tarot = lazy(() => import("../scene/tarot/Tarot"));
 const Pendulohebreo = lazy(() => import( "../scene/pendulohebreo/Pendulohebreo"));
 const Aromaterapia = lazy(() => import( "../scene/aromaterapia/Aromaterapia")); 
 const Masajes = lazy(() => import( "../scene/masajes/Masajes"));
+const FloresBach = lazy(() => import( "../scene/floresdeBach/FloresBach"));
 
 
 const Home = () => {
@@ -21,7 +22,9 @@ const Home = () => {
         <Pendulohebreo/>
         <Aromaterapia />
       </Suspense>
+     {/*  <FloresBach/> */}
       <Masajes/>
+    
     </div>
   );
 };

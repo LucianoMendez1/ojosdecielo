@@ -23,16 +23,16 @@ const Aromaterapia = () => {
         </p>
         <button className="Button">Solicitar Turno</button>
         <div className="container_video_detail">
-        <div className="box_video_detail">
+        {/* <div className="box_video_detail">
             <video
-              className=""
+              className="video_detail"
               autoPlay
               loop
               muted
               playsInline
-              src="https://res.cloudinary.com/dvnhn35l4/video/upload/v1708298907/ojos%20de%20cielo/aromaterapia/pexels-ekaterina-bolovtsova-6768211_Original_efczta.mov"
+              src="https://res.cloudinary.com/dvnhn35l4/video/upload/v1708298437/ojos%20de%20cielo/aromaterapia/pexels-mart-production-8447712_2160p_xtcki0.mp4"
             ></video> {/* Aquí está el cambio */}
-          </div>
+       {/*    </div> */} 
         </div>
       </div>
      </div> 

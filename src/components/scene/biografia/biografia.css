@@ -327,9 +327,8 @@
 .img-container1{
   display: none;
 }
-.img-container2{
-  width: 20%;
-  border: 2px solid red;
+.img-container2 img{
+  width: 100%;
  
 }
 }

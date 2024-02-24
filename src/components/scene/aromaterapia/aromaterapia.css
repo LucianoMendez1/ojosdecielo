@@ -7,7 +7,7 @@
     display: flex;
    
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 4rem;
     gap: 1rem;
   }
@@ -65,9 +65,9 @@
 
   .container_video_detail {
     width: 100%;
-    max-width: 100%; 
+    
     height: auto; /* Cambiado a auto */
-    max-height: 100vh; /* Ajusta según lo necesites */
+    max-height: 500vh; /* Ajusta según lo necesites */
     position: relative;
     display: flex;
    justify-content: center;
@@ -76,13 +76,17 @@
     flex-direction: column;
    
    
+   
 
 }
+
 
 .box_video_detail {
     border-radius: 10px;
     position: relative;
+   
     overflow: hidden; 
+
 }
 
 .box_video_detail video {
