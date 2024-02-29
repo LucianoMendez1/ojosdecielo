@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, Suspense, lazy } from "react";
 import "./home.css";
 import { gsap } from "gsap";
+import Reiki from "../scene/reiki/Reiki";
 
 const Presentacion = lazy(() => import("../scene/presentacion/Presentacion"));
 const Biografia = lazy(() => import("../scene/biografia/Biografia"));
@@ -9,21 +10,21 @@ const Pendulohebreo = lazy(() => import( "../scene/pendulohebreo/Pendulohebreo")
 const Aromaterapia = lazy(() => import( "../scene/aromaterapia/Aromaterapia")); 
 const Masajes = lazy(() => import( "../scene/masajes/Masajes"));
 const FloresBach = lazy(() => import( "../scene/floresdeBach/FloresBach"));
-
+const Raiki = lazy(() => import( "../scene/reiki/Reiki"));
 
 const Home = () => {
   return (
     <div className="home">
       <Suspense fallback={<div>Loading...</div>}>
         <Presentacion />
-
         <Biografia />
-        <Tarot />
         <Pendulohebreo/>
+        <Tarot />
+        <Reiki/>
         <Aromaterapia />
-      </Suspense>
-     {/*  <FloresBach/> */}
-      <Masajes/>
+        </Suspense>
+      {/*  <FloresBach/> */} 
+       <Masajes/>
     
     </div>
   );

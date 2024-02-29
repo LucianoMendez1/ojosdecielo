@@ -26,12 +26,12 @@ const Masajes = () => {
           sostenida, estiramientos suaves y técnicas de liberación miofascial.
         </p>
         <div className="Button">Solicitar Turno</div>
-        <div className="img-container-masajes">
+     {/*    <div className="img-container-masajes">
           
           
             <img src="https://res.cloudinary.com/dvnhn35l4/image/upload/v1708479078/ojos%20de%20cielo/masajes/physio-1778029_1920_hzfeyn.jpg" className="img-masajes3" alt="" />
 
-        </div>
+        </div> */}
       </div>
 
     </div>
