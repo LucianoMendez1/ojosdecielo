@@ -3,8 +3,9 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import isMobile from "is-mobile";
 import "../biografia/biografia.css";
-
+import ButtonSolicitud from "../../button/ButtonSolicitud";
 const Reiki = () => {
+  const message = 'Hola, me gustaría solicitar un turno para la terapia de Reiki.';
   return (
     <div className="bio-wrapper">
       <div className="img-container">
@@ -29,6 +30,7 @@ const Reiki = () => {
             por una hora. También, si lo desean, pueden poner música suave y
             alguna esencia, sahumerio o hierbas para ayudar con el ambiente.
           </p>
+          <ButtonSolicitud message={message} />
         </div>
         {/*  <div className="img-container2">
           {" "}

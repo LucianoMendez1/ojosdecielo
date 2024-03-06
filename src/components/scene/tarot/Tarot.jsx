@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 import "./tarot.css";
-
+import ButtonSolicitud from "../../button/ButtonSolicitud";
 const Tarot = () => {
   const [isMobile, setIsMobile] = useState(false);
-
+  const message = 'Hola, me gustaría solicitar un turno para el tarot.';
   useEffect(() => {
     if (window.innerWidth < 550) {
       setIsMobile(true);
@@ -22,7 +22,7 @@ const Tarot = () => {
         
 
         </p>
-        <button className="Button">Solicitar Turno</button>
+        <ButtonSolicitud message={message} />
       </div>
 
       {isMobile ? (

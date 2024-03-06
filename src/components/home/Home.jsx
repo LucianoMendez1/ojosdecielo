@@ -23,7 +23,7 @@ const Home = () => {
         <Reiki/>
         <Aromaterapia />
         </Suspense>
-      {/*  <FloresBach/> */} 
+       <FloresBach/> 
        <Masajes/>
     
     </div>

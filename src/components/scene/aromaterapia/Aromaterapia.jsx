@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./aromaterapia.css";
-
+import ButtonSolicitud from "../../button/ButtonSolicitud";
 const Aromaterapia = () => {
+  const massage ="Hola me gustaria sacar un turno para la sesion de Aromaterapia";
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -21,7 +22,7 @@ const Aromaterapia = () => {
           psicológico o físico​​ para la cual no existe buena evidencia de
           eficacia
         </p>
-        <button className="Button">Solicitar Turno</button>
+       <ButtonSolicitud  massage={massage}/>
         <div className="container_video_detail">
         {/* <div className="box_video_detail">
             <video

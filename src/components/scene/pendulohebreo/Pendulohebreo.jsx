@@ -3,8 +3,10 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import isMobile from "is-mobile";
 import "./pendulohebreo.css";
+import ButtonSolicitud from "../../button/ButtonSolicitud";
 
 const Pendulohebreo = () => {
+  const message = 'Hola, me gustaría solicitar un turno para la terapia de Péndulo Hebreo.';
   return (
     <div className="pendulo-wrapper">
       <div className="box_text_pendulo">
@@ -24,7 +26,7 @@ const Pendulohebreo = () => {
           aliviar el dolor, ansiedad, estrés, bloqueos emocionales o mentales,
           así como para depuración y recuperación del equilibrio energético.
         </p>
-        <div className="Button">Solicitar Turno</div>
+        <div>
       </div>
       <div className="box_img_pendulo">
         
@@ -44,7 +46,8 @@ const Pendulohebreo = () => {
           alt="Image 3"
         />
       </div>
-      
+      <ButtonSolicitud message={message} />
+      </div>
     </div>
   );
 };

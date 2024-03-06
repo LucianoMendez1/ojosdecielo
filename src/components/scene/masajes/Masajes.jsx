@@ -4,8 +4,10 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import isMobile from "is-mobile";
 import "../pendulohebreo/pendulohebreo.css";
 import "./masajes.css"
+import ButtonSolicitud from "../../button/ButtonSolicitud";
 
 const Masajes = () => {
+  const message = 'Hola, me gustaría solicitar un turno para la sesion de masajes';
   return (
     <div className="masajes-wrapper">
       <div className="box_text_pendulo">
@@ -25,7 +27,7 @@ const Masajes = () => {
           la movilidad. Estos movimientos pueden incluir amasamiento, presión
           sostenida, estiramientos suaves y técnicas de liberación miofascial.
         </p>
-        <div className="Button">Solicitar Turno</div>
+        <ButtonSolicitud message={message} />
      {/*    <div className="img-container-masajes">
           
           
