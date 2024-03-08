@@ -27,7 +27,7 @@
   
   
   .box_text_pendulo p{
-    text-transform: initial;
+    text-transform: center;
     color: white;
     font-size: 1.8rem;
     font-weight: 500;
@@ -51,7 +51,7 @@
     color: #ffa4c4;
     font-size: 1.8rem;
     letter-spacing: .5px;
-    text-transform: initial;
+    text-transform: center;
     font-weight: 600;
     width: 100%;
     position: relative;
@@ -75,7 +75,7 @@
   }
   
   .box_text_pendulo p{
-    text-transform: initial;
+    text-transform: center;
     color: rgb(0, 0, 0);
     font-size: 1.8rem;
     font-weight: 500;
@@ -353,11 +353,11 @@
   @media screen and (max-width:550px) {
     .text_biography p{
       font-size: 1.1rem;
-      text-transform: initial;
+      text-transform: center;
     }
   
     .text_biography span{
-      text-transform: initial;
+      text-transform: center;
       font-size: 1.1rem;
     }
   
@@ -388,11 +388,11 @@
   @media screen and (max-width:370px) {
     .text_biography p{
       font-size: 1.05rem;
-      text-transform: initial;
+      text-transform: center;
     }
   
     .text_biography span{
-      text-transform: initial;
+      text-transform: center;
       font-size: 1.05rem;
     }
     .box_text_pendulo p , .box_text_pendulo span{

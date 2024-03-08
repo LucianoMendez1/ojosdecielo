@@ -15,10 +15,7 @@ const Masajes = () => {
         <p>
           <span>Masajes descontracturantes </span>, aliviar la tensión muscular
           y reducir las contracturas que pueden causar molestias y limitaciones
-          en el movimiento. Este tipo de masaje se centra en identificar y
-          liberar los puntos de tensión y nudos musculares que se han formado
-          debido al estrés, la mala postura, el ejercicio intenso u otras
-          actividades que tensan los músculos. 
+          en el movimiento. 
           <br/>
           Durante un masaje
           descontracturante, <span>Silvina utiliza una combinación de movimientos

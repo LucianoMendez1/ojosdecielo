@@ -38,7 +38,7 @@
 
   
 .box_text_biography-aromaterapia p{
-    text-transform: initial;
+    text-transform: center;
     color: rgb(0, 0, 0);
     font-size: 1.8rem;
     font-weight: 500;
@@ -51,7 +51,7 @@
     color: #ffa4c4;
     font-size: 1.8rem;
     letter-spacing: .5px;
-    text-transform: initial;
+    text-transform: center;
     font-weight: 600;
     width: 100%;
     position: relative;
@@ -209,7 +209,7 @@
       }
     
       .box_text_biography h2{
-        font-size:8vw;
+        
         width: 100%;    
         display: flex;
         align-items: center;
@@ -250,7 +250,7 @@
     .box_text_animala p {
       font-size: 1.2rem;
       color: rgb(28, 28, 28);
-      text-transform: initial;
+      text-transform: center;
       font-weight: 500;
       position: relative;
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

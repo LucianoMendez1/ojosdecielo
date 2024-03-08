@@ -18,7 +18,7 @@ const FloresBach = () => {
           alt=""
         />
       </div> */}
-        <div className="box_text_biography">
+        <div className="box_text">
           <h2> Flores de Bach </h2>
           <p>
             Las flores de Bach son remedios naturales que se pueden administrar

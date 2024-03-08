@@ -15,12 +15,12 @@ const Biografia = () => {
             alt=""
           />
         </div>
-        <div className="box_text_biography">
+        <div className="box_text">
           <h2> Terapeuta Integral Curando Cuerpo Mente y Espíritu </h2>
           <p>
             el bienestar completo.  Emplea técnicas como <span>digitopuntura, masajes,
-            registros akáshicos, péndulo hebreo, tarot evolutivo, aromaterapia,
-            flores de Bach y Reiki.</span> 
+            registros akáshicos, péndulo hebreo, tarot evolutivo, aromaterapia y 
+            flores de Bach .</span> 
             <br/>
             <br/>
             Reconoce la conexión entre los aspectos
