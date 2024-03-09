@@ -2,15 +2,14 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import isMobile from "is-mobile";
-/* import "./pendulohebreo.css"; */
-import "../biografia/biografia.css"
+import "./pendulohebreo.css";
 import ButtonSolicitud from "../../button/ButtonSolicitud";
 
 const Pendulohebreo = () => {
   const message = 'Hola, me gustaría solicitar un turno para la terapia de Péndulo Hebreo.';
   return (
-    <div className="bio-wrapper">
-      <div className="box_text_biography">
+    <div className="pendulo-wrapper">
+      <div className="box_text_pendulo">
         <h2>Pendulo Hebreo </h2>
         <p>
           El <span>Péndulo Hebreo es una técnica de desbloqueo</span>, armonización y
