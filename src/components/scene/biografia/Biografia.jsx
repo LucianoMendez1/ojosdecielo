@@ -15,7 +15,7 @@ const Biografia = () => {
             alt=""
           />
         </div>
-        <div className="box_text">
+        <div className="box_text_biography">
           <h2> Terapeuta Integral Curando Cuerpo Mente y Espíritu </h2>
           <p>
             el bienestar completo.  Emplea técnicas como <span>digitopuntura, masajes,
