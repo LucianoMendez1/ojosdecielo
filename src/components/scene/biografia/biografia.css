@@ -9,62 +9,23 @@
   gap: 10rem;
   padding: 5rem 2rem;
   margin-top: 2rem;
+ 
   
 }
 
  
 
-.box_biography{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 78%;
-    gap: 2rem;
-    position: relative;
-    text-align: center;
-
-}
-
-
-.text_biography h2{
-  font-size: 4vw;
-  font-weight: 900;
-  line-height: 130%;
-  letter-spacing: .3px;
-  width: 100%;
-}
-
-.text_biography p{
-  text-transform: center;
-  color: white;
-  font-size: 1.8rem;
-  font-weight: 500;
-  width: 90%;
-  position: relative;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.text_biography span{
-  color: #C3EBFF;
-  font-size: 1.8rem;
-  letter-spacing: .5px;
-  text-transform: center;
-  font-weight: 600;
-  width: 90%;
-  position: relative;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .box_text_biography{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 78%;
   gap: 2rem;
   position: relative;
   text-align: center;
+  
 }
 
 
