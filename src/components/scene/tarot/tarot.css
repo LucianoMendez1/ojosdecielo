@@ -305,8 +305,7 @@
     }
   
     .img_1 {
-      width: 14rem;
-      height: 19rem;
+     display: none;
     }
   
     .img_2 {
@@ -315,8 +314,7 @@
     }
   
     .img_3 {
-      width: 14rem;
-      height: 24rem;
+      display: none;
     }
   
     .container_animala {
