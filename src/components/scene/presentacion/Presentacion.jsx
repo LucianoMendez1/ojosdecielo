@@ -6,7 +6,7 @@ const Presentacion = React.forwardRef(() => {
     <div className="mx-2">
       <div className="box_canvas">
         <div className="container_titleHero">
-          <h1 className="titleHero">Ojos de Cielo</h1>
+          <div className="img"><img src="https://res.cloudinary.com/dvnhn35l4/image/upload/v1713068353/1_atdoir.png" alt="" /></div>
         </div>
 
         <video

@@ -76,7 +76,10 @@
  
   animation: colorTitle 2.4s ease-in-out infinite;
 }
+.container_titleHero img{
+   width: 100%;
 
+}
 
 
 @keyframes colorTitle {
