@@ -379,9 +379,24 @@
       gap: 2rem;
       text-align: center;
     }
-   /*  .box_img_pendulo {
-      display: none;
-    } */
+    .img_pendulo2 {
+
+ 
+      right: 50%; 
+     
+  }
+  .img_pendulo3 {
+
+ 
+    display: none;
+   
+}
+.img_pendulo1 {
+
+ 
+display: none ;
+ 
+}
   }
   
   

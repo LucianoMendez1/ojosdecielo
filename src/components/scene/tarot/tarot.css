@@ -365,6 +365,10 @@
         line-height: 140%;
     
       }
+      .img_1 {
+        width: 23rem;
+        height: 20rem;
+      }
   }
   
   @media screen and (max-width: 440px) {
