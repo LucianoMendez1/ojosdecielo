@@ -133,7 +133,7 @@
   .box_biography{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     padding: 2rem 4rem;
   }
@@ -268,7 +268,7 @@
   .box_text_biography{
     width: 100%;
     gap: 2rem;
-    text-align: start;
+    text-align: center;
   }
   
 .img-container {
