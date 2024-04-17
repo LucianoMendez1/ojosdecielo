@@ -20,12 +20,10 @@ const Home = () => {
         <Biografia />
         <Pendulohebreo/>
         <Tarot />
- 
         <Aromaterapia />
-        </Suspense>
-       <FloresBach/> 
-       <Masajes/>
-    
+        <FloresBach/> 
+        <Masajes/>
+       </Suspense>
     </div>
   );
 };

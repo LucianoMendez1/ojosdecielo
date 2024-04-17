@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./aromaterapia.css";
 import ButtonSolicitud from "../../button/ButtonSolicitud";
+import './aromaterapia.css';
 const Aromaterapia = () => {
-  const massage ="Hola me gustaria sacar un turno para la sesion de Aromaterapia";
+  const massage = "Hola me gustaria sacar un turno para la sesion de Aromaterapia";
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -13,14 +13,10 @@ const Aromaterapia = () => {
 
   return (
     <div className="container_aromaterapia">
-      <div className="box_text_biography-aromaterapia">
-        <h2> Aromaterapia</h2>
+    `<div className="box_text_biography-aromaterapia">
+        <h2> AROMATERAPIA</h2>
         <p>
-          La aromaterapia es una forma de medicina alternativa basada en el uso
-          de materiales aromáticos, incluidos los aceites esenciales y otros
-          compuestos aromáticos, con el objetivo de mejorar el bienestar
-          psicológico o físico​​ para la cual no existe buena evidencia de
-          eficacia
+        La aromaterapia es una forma de medicina alternativa basada en el uso de materiales aromáticos, incluidos los aceites esenciales y otros compuestos aromáticos, con el objetivo de mejorar el bienestar psicológico o físico​​ para la cual no existe buena evidencia de eficacia
         </p>
        <ButtonSolicitud  massage={massage}/>
         <div className="container_video_detail">
@@ -35,9 +31,10 @@ const Aromaterapia = () => {
             ></video> {/* Aquí está el cambio */}
        {/*    </div> */} 
         </div>
-      </div>
-     </div> 
+        </div>
+    </div>
   );
 };
 
 export default Aromaterapia;
+
