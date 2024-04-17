@@ -25,18 +25,7 @@ const Tarot = () => {
         <ButtonSolicitud message={message} />
       </div>
 
-      {isMobile ? (
-        <div className="box_video">
-         {/*  <video
-            className="video_animala_mobile"
-            autoPlay
-            loop
-            muted
-            playsInline
-            src="https://res.cloudinary.com/dvnhn35l4/video/upload/v1696907149/ProyectAgustin/2_gtnfou.mp4"
-          ></video> */}
-        </div>
-      ) : (
+      
     <div className="box_img_animala">
           <img
             className="img_animala img_1" // Cambiado a ".bio-image-static-animala"
@@ -69,7 +58,7 @@ const Tarot = () => {
             alt="Image 6"
           />
         </div>
-      )}
+     
     </div>
   );
 };
