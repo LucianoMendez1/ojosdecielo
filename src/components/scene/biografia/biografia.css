@@ -1,14 +1,14 @@
 .bio-wrapper{
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10rem;
   padding: 5rem 2rem;
-  margin-top: 2rem;
+ /*  margin-top: 2rem; */
  
   
 }
@@ -123,7 +123,7 @@
 @media screen and (max-width:1240px) {
 
   .bio-wrapper{
-    margin-top: 2rem;
+ /*    margin-top: 2rem; */
   }
 
   .box_biography_video{
@@ -180,7 +180,7 @@
   .bio-wrapper{
     gap: 2rem;
     padding: 1rem 5rem;
-    margin-top: 7rem;
+   /*  margin-top: 7rem; */
   }
 
 
@@ -193,7 +193,7 @@
     padding: 1rem 2rem;
   }
   .text_biography_s2{
-    margin-top: 5rem;
+   /*  margin-top: 5rem; */
   }
 
   .box_text_biography p , .box_text_biography span{
@@ -222,7 +222,7 @@
   }
 
   .text_biography_s2{
-    margin-top: 5rem;
+   /*  margin-top: 5rem; */
   }
 
   .box_text_biographyp , .box_text_biography span{
@@ -237,7 +237,7 @@
 
   
   .box_text_biography{
-    margin-top: 2rem;
+   /*  margin-top: 2rem; */
   }
 }
 
@@ -274,14 +274,15 @@
 .img-container {
  
   position: relative;
-  width: 70%;
-  min-height: 100vh;
+  width: 100%;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   padding: 1rem 0rem;
+ 
   
 }
 .img-container1{

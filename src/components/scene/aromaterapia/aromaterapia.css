@@ -1,5 +1,5 @@
 .container_aromaterapia {
-    margin-top: 5rem;
+    
     position: relative;
     width: 100%;
     min-height: 100%;
@@ -202,7 +202,7 @@
   @media screen and (max-width: 800px) {
 
     .text_biography_s2{
-        margin-top: 5rem;
+      /*   margin-top: 5rem; */
       }
     
       .box_text_biography-aromaterapia p , .box_text_biography-aromaterapia span{
@@ -219,9 +219,7 @@
       }
 
   
-    .container_aromaterapia {
-      margin-bottom:6rem;
-    }
+    
   
     .box_text_animala h2 {
       font-size: 8rem;

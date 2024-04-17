@@ -8,7 +8,7 @@
     flex-direction: column;
     gap: 10rem;
     padding: 5rem 2rem;
-    margin-top: 2rem;
+   /*  margin-top: 2rem; */
   }
 
   .box_text_pendulo{
@@ -182,7 +182,7 @@
   @media screen and (max-width:1240px) {
   
     .pendulo-wrapper{
-      margin-top: 2rem;
+     /*  margin-top: 2rem; */
     }
   
     .box_biography_video{
@@ -262,7 +262,7 @@
     .pendulo-wrapper{
       gap: 2rem;
       padding: 1rem 5rem;
-      margin-top: 7rem;
+     /*  margin-top: 7rem; */
     }
   
   
@@ -276,7 +276,7 @@
       padding: 1rem 2rem;
     }
     .text_biography_s2{
-      margin-top: 5rem;
+    /*   margin-top: 5rem; */
     }
   
     .box_text_pendulo p , .box_text_pendulo span{
@@ -332,7 +332,7 @@
     }
   
     .text_biography_s2{
-      margin-top: 5rem;
+    /*   margin-top: 5rem; */
     }
   
     .box_text_pendulo p , .box_text_pendulo span{
@@ -346,7 +346,7 @@
    
     
     .box_text_pendulo{
-      margin-top: 2rem;
+  /*     margin-top: 2rem; */
     }
   }
   
